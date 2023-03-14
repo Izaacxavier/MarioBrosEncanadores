@@ -1,0 +1,158 @@
+.modal_atendimento {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
+.modal_container {
+  display: block;
+  background-color: #f3cc41;
+  padding: 40px 40px;
+  border: solid 3px red;
+  border-radius: 20px;
+  position: relative;
+}
+.logo_bros_pic {
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+}
+.modal_img img {
+  width: 100px;
+}
+.modal_content {
+  display: flex;
+  gap: 80px;
+}
+.modal_form img {
+  width: 50px;
+}
+.modal_form fieldset {
+  padding: 20px 5px 40px;
+  border: 2px solid red;
+}
+.input_form input {
+  width: 300px;
+  display: block;
+  padding: 5px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+.modal_form legend {
+  margin-left: 40%;
+}
+.modal_form span {
+  font-size: 10px;
+  margin: 0px 60px;
+  color: #3c3c3c;
+}
+.btn_input {
+  width: 300px;
+  display: block;
+  padding: 5px;
+  margin-top: 15px;
+  border: none;
+  outline: none;
+  background-image: url(https://dx35vtwkllhj9.cloudfront.net/universalstudios/super-mario-bros-plumbing/images/button.png);
+  background-size: cover;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.btn_modal {
+  font-size: 1.8rem;
+  color: #fff;
+  position: absolute;
+  top: -30px;
+  right: -20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-image: url(https://dx35vtwkllhj9.cloudfront.net/universalstudios/super-mario-bros-plumbing/images/button.png);
+  background-size: cover;
+  cursor: pointer;
+}
+.modal_atendimento.visible {
+  display: flex;
+}
+
+.modal_video {
+  width: 100%;
+  height: 100vh;
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  margin-top: 80px;
+}
+.modal_video.visible {
+  display: flex;
+}
+.video_modal {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  padding: 120px;
+}
+#btn_video_close {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: transparent;
+  color: #ffff;
+  font-size: 38px;
+  opacity: 0.6;
+  font-family: monospace;
+  cursor: pointer;
+}
+
+@media (max-width: 700px){
+
+  .modal_img img {
+    width: 50px;
+  }
+  .modal_img {
+    width: 30px;
+  }
+  .btn_modal {
+    font-size: 1rem;
+    top: 15px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+  }
+  .modal_atendimento{
+    padding: 5px;
+  }
+  .modal_container {
+    display: block;
+    padding: 30px 30px;
+    border: solid 3px red;
+    width: 100%;
+  }
+  .input_form input{
+    width: 100%;
+  }
+  .modal_form fieldset{
+    width: 50%;
+    padding:  5px 15px 5px 5px;
+  }
+}
+
+
