@@ -8,7 +8,9 @@ Projeto Clone do site de divulgação do filme do Mário bros, desenvolvido com 
 
 ## DEMO
 ![Projeto Githurb](https://user-images.githubusercontent.com/105816549/225094613-db6f7b14-5dfa-4d4e-b814-28de2acd2e81.png)
-## 🚀 Tecnologias utilizadas:
+<p align="center">  Veja o site em funcionamento: <a href="https://mariobrosencanadoresclone.netlify.app">aqui</a>.</p>
+
+# 🚀 Tecnologias utilizadas:
 
 Esse projeto foi desenvolvido usando as seguintes tecnologias:
 
